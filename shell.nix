@@ -14,6 +14,7 @@ mkShell' {
     python3
     python3Packages.pip
 
+    rust-bin.stable.latest.default
     curl
     nodejs
     nodePackages.pnpm
