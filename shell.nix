@@ -14,20 +14,12 @@ mkShell' {
     python3
     python3Packages.pip
 
-    rust-bin.stable.latest.default
+    rust-bin.beta.latest.default
     curl
     nodejs
     nodePackages.pnpm
-    # TODO: compiler / gcc for secp compilation
-    go-ethereum # geth
-    # parity # openethereum
-    go-mockery
-
+    foundry-bin
     # tooling
-    gotools
-    gopls
-    delve
-    golangci-lint
     github-cli
     jq
 
